@@ -1,0 +1,141 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "IUdtSocket/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "udt.NetCore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IUdtSocket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IUdtSocket.dll": {}
+        }
+      },
+      "udt.NetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/udt.NetCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/udt.NetCore.dll": {}
+        }
+      },
+      "UdtCSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "IUdtSocket": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UdtCSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdtCSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "IUdtSocket/1.0.0": {
+      "type": "project",
+      "path": "../IUdtSocket/IUdtSocket.csproj",
+      "msbuildProject": "../IUdtSocket/IUdtSocket.csproj"
+    },
+    "udt.NetCore/1.0.0": {
+      "type": "project",
+      "path": "../udt.NetCore/udt.NetCore.csproj",
+      "msbuildProject": "../udt.NetCore/udt.NetCore.csproj"
+    },
+    "UdtCSharp/1.0.0": {
+      "type": "project",
+      "path": "../UdtCSharp/UdtCSharp.csproj",
+      "msbuildProject": "../UdtCSharp/UdtCSharp.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "UdtCSharp >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\jinyu\\.nuget\\packages\\": {},
+    "d:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\study\\udt4\\Srv\\Srv.csproj",
+      "projectName": "Srv",
+      "projectPath": "E:\\study\\udt4\\Srv\\Srv.csproj",
+      "packagesPath": "C:\\Users\\jinyu\\.nuget\\packages\\",
+      "outputPath": "E:\\study\\udt4\\Srv\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "d:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\jinyu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress .NET Core Desktop 20.2.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "d:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\System\\Components\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "E:\\study\\udt4\\UdtCSharp\\UdtCSharp.csproj": {
+              "projectPath": "E:\\study\\udt4\\UdtCSharp\\UdtCSharp.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[5.0.4, 5.0.4]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.3.21202.5\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

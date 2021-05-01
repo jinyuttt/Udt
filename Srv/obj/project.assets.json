@@ -12,31 +12,31 @@
           "bin/placeholder/IUdtSocket.dll": {}
         }
       },
-      "udt.NetCore/1.0.0": {
+      "UdtCSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "IUdtSocket": "1.0.0",
+          "udtnative": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UdtCSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdtCSharp.dll": {}
+        }
+      },
+      "udtnative/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "IUdtSocket": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/udt.NetCore.dll": {}
+          "bin/placeholder/udtnative.dll": {}
         },
         "runtime": {
-          "bin/placeholder/udt.NetCore.dll": {}
-        }
-      },
-      "UdtCSharp/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "IUdtSocket": "1.0.0",
-          "udt.NetCore": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UdtCSharp.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UdtCSharp.dll": {}
+          "bin/placeholder/udtnative.dll": {}
         }
       }
     }
@@ -47,15 +47,15 @@
       "path": "../IUdtSocket/IUdtSocket.csproj",
       "msbuildProject": "../IUdtSocket/IUdtSocket.csproj"
     },
-    "udt.NetCore/1.0.0": {
-      "type": "project",
-      "path": "../udt.NetCore/udt.NetCore.csproj",
-      "msbuildProject": "../udt.NetCore/udt.NetCore.csproj"
-    },
     "UdtCSharp/1.0.0": {
       "type": "project",
       "path": "../UdtCSharp/UdtCSharp.csproj",
       "msbuildProject": "../UdtCSharp/UdtCSharp.csproj"
+    },
+    "udtnative/1.0.0": {
+      "type": "project",
+      "path": "../udt.NetCore/udtnative.csproj",
+      "msbuildProject": "../udt.NetCore/udtnative.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -71,11 +71,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\study\\udt4\\Srv\\Srv.csproj",
+      "projectUniqueName": "E:\\study\\uz\\Udt\\Srv\\Srv.csproj",
       "projectName": "Srv",
-      "projectPath": "E:\\study\\udt4\\Srv\\Srv.csproj",
+      "projectPath": "E:\\study\\uz\\Udt\\Srv\\Srv.csproj",
       "packagesPath": "C:\\Users\\jinyu\\.nuget\\packages\\",
-      "outputPath": "E:\\study\\udt4\\Srv\\obj\\",
+      "outputPath": "E:\\study\\uz\\Udt\\Srv\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -99,8 +99,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\study\\udt4\\UdtCSharp\\UdtCSharp.csproj": {
-              "projectPath": "E:\\study\\udt4\\UdtCSharp\\UdtCSharp.csproj"
+            "E:\\study\\uz\\Udt\\UdtCSharp\\UdtCSharp.csproj": {
+              "projectPath": "E:\\study\\uz\\Udt\\UdtCSharp\\UdtCSharp.csproj"
             }
           }
         }

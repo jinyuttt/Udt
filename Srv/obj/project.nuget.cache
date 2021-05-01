@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "evTociB5BoCOEsxC+ZZuWLATRs/jN0IwEnSJs+9LkSG43DU3fw+TmtHZMYgod4r9Kgq/8gFfRYbWdfx+g3bWfA==",
+  "dgSpecHash": "U1/DMC6KMhvLyMqGUTOGLOGaKWxmiMVRn55oh5o74t9Bwuylp003P0oWrXQE/OhhTVRPRQkRf1ADwniM01t5jA==",
   "success": true,
-  "projectFilePath": "E:\\study\\udt4\\Srv\\Srv.csproj",
+  "projectFilePath": "E:\\study\\uz\\Udt\\Srv\\Srv.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jinyu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.4\\microsoft.netcore.app.host.win-x64.5.0.4.nupkg.sha512"
   ],

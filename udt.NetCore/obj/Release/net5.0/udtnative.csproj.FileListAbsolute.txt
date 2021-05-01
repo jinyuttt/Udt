@@ -1,0 +1,15 @@
+E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\udtnative.deps.json
+E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\udtnative.dll
+E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\ref\udtnative.dll
+E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\udtnative.pdb
+E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\IUdtSocket.dll
+E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\IUdtSocket.pdb
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.csprojAssemblyReference.cache
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.GeneratedMSBuildEditorConfig.editorconfig
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.AssemblyInfoInputs.cache
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.AssemblyInfo.cs
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.csproj.CoreCompileInputs.cache
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.csproj.CopyComplete
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.dll
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\ref\udtnative.dll
+E:\study\uz\Udt\udt.NetCore\obj\Release\net5.0\udtnative.pdb

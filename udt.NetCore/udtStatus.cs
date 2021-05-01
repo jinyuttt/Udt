@@ -1,4 +1,4 @@
-﻿namespace udt.NetCore
+﻿namespace udtnative
 {
     //public enum  UdtStatus
     //{

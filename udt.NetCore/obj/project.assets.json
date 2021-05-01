@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj",
-      "projectName": "udt.NetCore",
-      "projectPath": "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj",
+      "projectUniqueName": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
+      "projectName": "udtnative",
+      "projectPath": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
       "packagesPath": "C:\\Users\\jinyu\\.nuget\\packages\\",
-      "outputPath": "E:\\study\\udt4\\udt.NetCore\\obj\\",
+      "outputPath": "E:\\study\\uz\\Udt\\udt.NetCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",
@@ -62,8 +62,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj": {
-              "projectPath": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj"
+            "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj": {
+              "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj"
             }
           }
         }

@@ -14,13 +14,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "udt", "udt.vcxproj", "{D84D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test.vcxproj", "{C70F9A98-ECFF-4DC7-895D-0E41936BD1BA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "udt.NetCore", "..\udt.NetCore\udt.NetCore.csproj", "{C270D14B-6584-4CFF-9045-D1A5A65BDE35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "udtnative", "..\udt.NetCore\udtnative.csproj", "{C270D14B-6584-4CFF-9045-D1A5A65BDE35}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Srv", "..\Srv\Srv.csproj", "{29B41A30-13C4-4261-8F4C-A1A68834D755}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UdtCSharp", "..\UdtCSharp\UdtCSharp.csproj", "{297A8C74-01E6-488B-949B-92E74CC7C22E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IUdtSocket", "..\IUdtSocket\IUdtSocket.csproj", "{3A89ADEF-0D7A-40C9-87FE-C75E1BD1B581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IUdtSocket", "..\IUdtSocket\IUdtSocket.csproj", "{3A89ADEF-0D7A-40C9-87FE-C75E1BD1B581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".net", ".net", "{289E1BED-FE17-46CD-85C9-6FC03E30EAE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -134,6 +136,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C270D14B-6584-4CFF-9045-D1A5A65BDE35} = {289E1BED-FE17-46CD-85C9-6FC03E30EAE4}
+		{29B41A30-13C4-4261-8F4C-A1A68834D755} = {289E1BED-FE17-46CD-85C9-6FC03E30EAE4}
+		{297A8C74-01E6-488B-949B-92E74CC7C22E} = {289E1BED-FE17-46CD-85C9-6FC03E30EAE4}
+		{3A89ADEF-0D7A-40C9-87FE-C75E1BD1B581} = {289E1BED-FE17-46CD-85C9-6FC03E30EAE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87F9EC56-CF68-4EF1-95DD-580E71D52E6F}

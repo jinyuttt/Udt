@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace udt.NetCore
+namespace udtnative
 {
     sealed partial class Globals
     {

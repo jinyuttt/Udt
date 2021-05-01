@@ -1,1 +1,123 @@
-﻿
+﻿  api.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  buffer.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\buffer.cpp(188,31): warning C4244: “=”: 从“std::streamsize”转换到“int”，可能丢失数据
+  cache.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  ccc.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  channel.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\channel.cpp(126,10): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  common.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\common.cpp(747,63): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  core.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\core.cpp(773,1): warning C4297: “CUDT::connect”: 假定函数不引发异常，但确实发生了
+E:\study\uz\Udt\src\core.cpp(773,1): message : 在函数上指定了 __declspec(nothrow)、throw()、noexcept(true)或 noexcept
+  epoll.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\epoll.cpp(110,69): warning C4100: “events”: 未引用的形参
+E:\study\uz\Udt\src\epoll.cpp(217,47): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+E:\study\uz\Udt\src\epoll.cpp(223,48): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+E:\study\uz\Udt\src\epoll.cpp(252,24): warning C4457: “readfds”的声明隐藏了函数参数
+E:\study\uz\Udt\src\epoll.cpp(181,49): message : 参见“readfds”的声明
+E:\study\uz\Udt\src\epoll.cpp(253,25): warning C4457: “writefds”的声明隐藏了函数参数
+E:\study\uz\Udt\src\epoll.cpp(181,74): message : 参见“writefds”的声明
+  list.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  md5.cpp
+  packet.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  queue.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\queue.cpp(1071,20): warning C4456: “u”的声明隐藏了上一个本地声明
+E:\study\uz\Udt\src\queue.cpp(978,10): message : 参见“u”的声明
+  window.cpp
+E:\study\uz\Udt\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\uz\Udt\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  UDTLibary.cpp
+C:\Users\jinyu\Downloads\UDT\UDTLibary\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\jinyu\Downloads\UDT\UDTLibary\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\jinyu\Downloads\UDT\UDTLibary\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
+d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(71,5): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(65,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(94,19): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(93,11): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(107,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(106,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(125,20): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(124,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(152,5): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(146,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(254,27): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(287,25): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(288,27): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\jinyu\Downloads\UDT\UDTLibary\UDTLibary.cpp(289,29): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码...
+    正在创建库 E:\study\uz\Udt\win\x64\Release\udt.lib 和对象 E:\study\uz\Udt\win\x64\Release\udt.exp
+  udt.vcxproj -> E:\study\uz\Udt\win\x64\Release\udt.dll

@@ -6,7 +6,7 @@ using System.Text;
 using System.Net.Sockets;
 using IUdtSocket;
 
-namespace udt.NetCore
+namespace udtnative
 {
     using static Globals;
     public sealed class UnsafeNativeMethods

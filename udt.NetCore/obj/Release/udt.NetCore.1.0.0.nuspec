@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>udt.NetCore</id>
+    <version>1.0.0</version>
+    <authors>udt.NetCore</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="IUdtSocket" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\udt.NetCore.dll" target="lib\net5.0\udt.NetCore.dll" />
+  </files>
+</package>

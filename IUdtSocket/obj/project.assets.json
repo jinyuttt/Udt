@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj",
+      "projectUniqueName": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
       "projectName": "IUdtSocket",
-      "projectPath": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj",
+      "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
       "packagesPath": "C:\\Users\\jinyu\\.nuget\\packages\\",
-      "outputPath": "E:\\study\\udt4\\IUdtSocket\\obj\\",
+      "outputPath": "E:\\study\\uz\\Udt\\IUdtSocket\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "d:\\Program Files (x86)\\DevExpress 20.2\\.NET Core Desktop Libraries\\Offline Packages",

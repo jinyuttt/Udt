@@ -1,4 +1,5 @@
-﻿using System;
+﻿using IUdtSocket;
+using System;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace Srv
 {
     class Program
     {
-       static SocketFactoty factoty = new SocketFactoty();
+      // static SocketFactoty factoty = new SocketFactoty();
         static void Main(string[] args)
         {
             Console.WriteLine(Environment.Is64BitProcess);
@@ -23,23 +24,23 @@ namespace Srv
             Task.Run(() =>
             {
                 Thread.Sleep(1000);
-                udt.NetCore.UDTSocket socket = factoty.Factory.Create();
-                socket.Connect("192.168.0.158", 6666);
+                var socket = SocketFactoty.Create();
+                socket.Connect("192.168.0.151", 6666);
                 Task.Run(() =>
                 {
                     while (true)
                     {
                         byte[] buf = new byte[10];
-                        int r = socket.Receive(buf, 10);
+                        int r = socket.Receive(buf);
                         string str = Encoding.Default.GetString(buf);
                         Console.WriteLine(str);
-                        if (socket.State == udt.NetCore.UdtStatus.CLOSED)
+                        if (socket.State == UdtStatus.CLOSED)
                         { break; }
                     }
                 });
                 while (true)
                 {
-                    socket.Send(Encoding.Default.GetBytes("ssss"),0,10);
+                    socket.Send(Encoding.Default.GetBytes("ssss"));
                     Thread.Sleep(1000);
                 }
                
@@ -50,8 +51,8 @@ namespace Srv
         {
             Task.Run(() =>
             {
-                udt.NetCore.UDTSocket socket = factoty.Factory.Create();
-                socket.Bind("192.168.0.158", 6666);
+               var socket = SocketFactoty.Create();
+                socket.Bind("192.168.0.151", 6666);
                 socket.Listen(100);
                 while (true)
                 {
@@ -62,12 +63,12 @@ namespace Srv
                         while (true)
                         {
                             byte[] buf = new byte[10];
-                            int r = c.Receive(buf, 10);
+                            int r = c.Receive(buf);
                             string str = Encoding.Default.GetString(buf);
                             Console.WriteLine(str);
-                            if (c.State == udt.NetCore.UdtStatus.CLOSED)
+                            if (c.State == UdtStatus.CLOSED)
                             { break; }
-                            c.Send(Encoding.Default.GetBytes("收到"), 0, 4);
+                            c.Send(Encoding.Default.GetBytes("收到"));
                         }
 
                     });

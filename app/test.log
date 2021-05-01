@@ -1,15 +1,1 @@
-﻿d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(519,5): warning MSB8028: 中间目录(../app\)包含从另一个项目(appclient.vcxproj, appserver.vcxproj, recvfile.vcxproj, sendfile.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
-cl : 命令行 warning D9035: “Gm”选项已否决，并将在将来的版本中移除
-  test.cpp
-E:\study\udt4\src\udt.h(248,24): warning C4251: “CUDTException::m_strMsg”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
-d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
-E:\study\udt4\src\udt.h(250,24): warning C4251: “CUDTException::m_strAPI”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
-d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
-E:\study\udt4\src\udt.h(251,26): warning C4251: “CUDTException::m_strDebug”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“CUDTException”的客户端使用
-d:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.28.29910\include\xstring(4648): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
-E:\study\udt4\app\test.cpp(38,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\study\udt4\app\test.cpp(85,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\study\udt4\app\test.cpp(115,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-E:\study\udt4\app\test.cpp(140,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-test.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
-  test.vcxproj -> E:\study\udt4\app\test.exe
+﻿

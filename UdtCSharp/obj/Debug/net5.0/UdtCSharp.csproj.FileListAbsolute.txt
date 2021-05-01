@@ -1,0 +1,17 @@
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\UdtCSharp.deps.json
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\UdtCSharp.dll
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\ref\UdtCSharp.dll
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\UdtCSharp.pdb
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\IUdtSocket.dll
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\udt.NetCore.dll
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\IUdtSocket.pdb
+E:\study\udt4\UdtCSharp\bin\Debug\net5.0\udt.NetCore.pdb
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.csprojAssemblyReference.cache
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.AssemblyInfoInputs.cache
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.AssemblyInfo.cs
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.csproj.CoreCompileInputs.cache
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.csproj.CopyComplete
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.dll
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\ref\UdtCSharp.dll
+E:\study\udt4\UdtCSharp\obj\Debug\net5.0\UdtCSharp.pdb

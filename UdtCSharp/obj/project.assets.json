@@ -5,9 +5,6 @@
       "IUdtSocket/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "udt.NetCore": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/IUdtSocket.dll": {}
         },
@@ -18,6 +15,9 @@
       "udt.NetCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "IUdtSocket": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/udt.NetCore.dll": {}
         },
@@ -41,7 +41,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "IUdtSocket >= 1.0.0"
+      "IUdtSocket >= 1.0.0",
+      "udt.NetCore >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -82,6 +83,9 @@
           "projectReferences": {
             "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj": {
               "projectPath": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj"
+            },
+            "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj": {
+              "projectPath": "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj"
             }
           }
         }

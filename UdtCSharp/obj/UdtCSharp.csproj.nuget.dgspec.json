@@ -34,11 +34,7 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {
-              "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj": {
-                "projectPath": "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -99,7 +95,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj": {
+                "projectPath": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -163,6 +163,9 @@
             "projectReferences": {
               "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj": {
                 "projectPath": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj"
+              },
+              "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj": {
+                "projectPath": "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj"
               }
             }
           }

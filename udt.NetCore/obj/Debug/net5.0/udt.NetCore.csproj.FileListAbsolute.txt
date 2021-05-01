@@ -1,0 +1,15 @@
+E:\study\udt4\udt.NetCore\bin\Debug\net5.0\udt.NetCore.deps.json
+E:\study\udt4\udt.NetCore\bin\Debug\net5.0\udt.NetCore.dll
+E:\study\udt4\udt.NetCore\bin\Debug\net5.0\ref\udt.NetCore.dll
+E:\study\udt4\udt.NetCore\bin\Debug\net5.0\udt.NetCore.pdb
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.csprojAssemblyReference.cache
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.GeneratedMSBuildEditorConfig.editorconfig
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.AssemblyInfoInputs.cache
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.AssemblyInfo.cs
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.csproj.CoreCompileInputs.cache
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.dll
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\ref\udt.NetCore.dll
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.pdb
+E:\study\udt4\udt.NetCore\bin\Debug\net5.0\IUdtSocket.dll
+E:\study\udt4\udt.NetCore\bin\Debug\net5.0\IUdtSocket.pdb
+E:\study\udt4\udt.NetCore\obj\Debug\net5.0\udt.NetCore.csproj.CopyComplete

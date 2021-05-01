@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UdtCSharp/1.0.0": {
+        "dependencies": {
+          "IUdtSocket": "1.0.0",
+          "udt.NetCore": "1.0.0"
+        },
+        "runtime": {
+          "UdtCSharp.dll": {}
+        }
+      },
+      "IUdtSocket/1.0.0": {
+        "runtime": {
+          "IUdtSocket.dll": {}
+        }
+      },
+      "udt.NetCore/1.0.0": {
+        "dependencies": {
+          "IUdtSocket": "1.0.0"
+        },
+        "runtime": {
+          "udt.NetCore.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UdtCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IUdtSocket/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "udt.NetCore/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

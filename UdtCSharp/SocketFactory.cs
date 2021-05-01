@@ -11,16 +11,22 @@ namespace UdtCSharp
    public class SocketFactoty
     {
 
-       static UdtFactory udtFactory = null;
+        static Type type = null;
         static SocketFactoty()
         {
             var managedAssemblyPath = Path.GetDirectoryName(typeof(SocketFactoty).Assembly.Location);
             var alc = new UdtLoadContext(managedAssemblyPath);
-            udtFactory = UdtLoadContext.Init(alc);
+            type= UdtLoadContext.Init(alc);
         }
-        public UdtFactory Factory
+
+       public   static IUdtSocket.IUdtSocket Create()
         {
-            get { return udtFactory; }
+            return (IUdtSocket.IUdtSocket)Activator.CreateInstance(type);
         }
+        public static IUdtSocket.IUdtSocket Create(int family, int sockTyp)
+        {
+            return (IUdtSocket.IUdtSocket)Activator.CreateInstance(type,family,sockTyp);
+        }
+
     }
 }

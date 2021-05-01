@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "IUdtSocket/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/IUdtSocket.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IUdtSocket.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "IUdtSocket/1.0.0": {
+      "type": "project",
+      "path": "../IUdtSocket/IUdtSocket.csproj",
+      "msbuildProject": "../IUdtSocket/IUdtSocket.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "IUdtSocket >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\jinyu\\.nuget\\packages\\": {},
@@ -42,7 +61,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj": {
+              "projectPath": "E:\\study\\udt4\\IUdtSocket\\IUdtSocket.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

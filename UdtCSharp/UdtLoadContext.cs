@@ -59,12 +59,12 @@ namespace UdtCSharp
                 }
                 else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
                 {
-                    var fullPath = Path.Combine(assemblyPath, "runtimes", "linux" + arch, "native", "libnng.so");
+                    var fullPath = Path.Combine(assemblyPath, "runtimes", "linux" + arch, "native", "udt.so");
                     return LoadUnmanagedDllFromPath(fullPath);
                 }
                 else if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
                 {
-                    var fullPath = Path.Combine(assemblyPath, "runtimes", "win" + arch, "native", "nng.dll");
+                    var fullPath = Path.Combine(assemblyPath, "runtimes", "win" + arch, "native", "udt.dll");
                     return LoadUnmanagedDllFromPath(fullPath);
                 }
                 else
@@ -75,12 +75,12 @@ namespace UdtCSharp
             return IntPtr.Zero;
         }
 
-        internal static UdtFactory Init(UdtLoadContext loadContext)
+        internal static Type Init(UdtLoadContext loadContext)
         {
             var assem = loadContext.LoadFromAssemblyName(new AssemblyName(managedAssemblyName));
-            var type = assem.GetType("IUdtSocket.UdtFactory");
-            UdtFactory udt = Activator.CreateInstance<UdtFactory>();
-            return udt;
+            var type = assem.GetType("udt.NetCore.UDTSocket");
+
+            return type;
         }
 
         const string managedAssemblyName = "udt.NetCore";

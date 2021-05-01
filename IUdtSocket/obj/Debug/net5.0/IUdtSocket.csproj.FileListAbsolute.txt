@@ -1,0 +1,12 @@
+E:\study\udt4\IUdtSocket\bin\Debug\net5.0\IUdtSocket.deps.json
+E:\study\udt4\IUdtSocket\bin\Debug\net5.0\IUdtSocket.dll
+E:\study\udt4\IUdtSocket\bin\Debug\net5.0\ref\IUdtSocket.dll
+E:\study\udt4\IUdtSocket\bin\Debug\net5.0\IUdtSocket.pdb
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.csprojAssemblyReference.cache
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.GeneratedMSBuildEditorConfig.editorconfig
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.AssemblyInfoInputs.cache
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.AssemblyInfo.cs
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.csproj.CoreCompileInputs.cache
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.dll
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\ref\IUdtSocket.dll
+E:\study\udt4\IUdtSocket\obj\Debug\net5.0\IUdtSocket.pdb

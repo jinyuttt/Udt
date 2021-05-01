@@ -12,7 +12,7 @@ using System.Text;
 namespace udt.NetCore
 {
   
-    public sealed class UDTSocket 
+    public sealed class UDTSocket: IUdtSocket.IUdtSocket
     {
         private Socket bindSocket = null; 
 
@@ -118,6 +118,35 @@ namespace udt.NetCore
             this.SocketType = sockType;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="family">1：InterNetwork 2：InterNetworkV6</param>
+        /// <param name="sockType">1：SOCK_STREAM 2：SOCK_DGRAM</param>
+        public UDTSocket(int family, int sockType)
+        {
+            UdtAddressFamily vf = UdtAddressFamily.InterNetwork;
+
+            UdtSocketType vs = UdtSocketType.SOCK_STREAM;
+
+            if (family == 2)
+            {
+                vf = UdtAddressFamily.InterNetworkV6;
+            }
+            if (sockType == 2)
+            {
+                vs = UdtSocketType.SOCK_DGRAM;
+            }
+            this.Handle = UnsafeNativeMethods.NewSocket(vf, vs, 0);
+            if (this.Handle == IntPtr.Zero)
+            {
+                throw GetUDTException();
+            }
+            this.Family = vf;
+            this.SocketType = vs;
+        }
+
+        
         private UDTSocket(IntPtr handle)
         {
             this.Handle = handle;
@@ -126,7 +155,7 @@ namespace udt.NetCore
         /// <summary>
         /// udt状态
         /// </summary>
-        public UdtStatus State
+        public IUdtSocket.UdtStatus State
         {
             get
             {
@@ -606,6 +635,10 @@ namespace udt.NetCore
             }
         }
 
+        /// <summary>
+        /// 启动
+        /// </summary>
+        /// <returns></returns>
         public int StartUp()
         {
 
@@ -630,7 +663,7 @@ namespace udt.NetCore
         /// <returns>连接的客户端</returns>
         /// <exception cref="UDTException"/>
         /// <exception cref="ObjectDisposedException">UDT被释放时引发</exception>
-         public UDTSocket Accept(out IPEndPoint remote)
+         public UDTSocket AcceptSocket(out IPEndPoint remote)
         {
            
             int port = 0;
@@ -654,7 +687,38 @@ namespace udt.NetCore
            
         }
 
-       
+
+        /// <summary>
+        /// 为新建连接创建新的UDTSocket
+        /// </summary>
+        /// <param name="remote">请求连接的远程地址</param>
+        /// <returns>连接的客户端</returns>
+        /// <exception cref="UDTException"/>
+        /// <exception cref="ObjectDisposedException">UDT被释放时引发</exception>
+        public IUdtSocket.IUdtSocket Accept(out IPEndPoint remote)
+        {
+
+            int port = 0;
+            byte[] ip = new byte[15];
+
+            int iplen = 0;
+            IntPtr acceptHandle = UnsafeNativeMethods.Accept(this.Handle, ip, ref iplen, ref port);
+
+            if (acceptHandle == IntPtr.Zero)
+            {
+                throw GetUDTException();
+            }
+            else
+            {
+                remote = new IPEndPoint(IPAddress.Parse(Encoding.Default.GetString(ip, 0, iplen)), port);
+                UDTSocket sock = new UDTSocket(acceptHandle);
+                sock.Family = this.Family;
+                sock.SocketType = this.SocketType;
+                return sock;
+            }
+
+        }
+
 
         /// <summary>
         /// 关闭连接
@@ -679,13 +743,11 @@ namespace udt.NetCore
         /// <exception cref="ObjectDisposedException">UDT被释放时引发</exception>
         /// <remarks>数据长度0不代表发送失败，只说明发送的数据量为0</remarks>
 
-       
-         public int Send(byte[] buffer, int offset, int len)
-        {
 
-          
-            int sendLen = UnsafeNativeMethods.Send(this.Handle, buffer, len);
-         
+        public int Send(byte[] buffer)
+        {
+            int sendLen = UnsafeNativeMethods.Send(this.Handle, buffer, buffer.Length);
+
             if (sendLen < 0) throw GetUDTException();
             return sendLen;
 
@@ -715,7 +777,7 @@ namespace udt.NetCore
         {
 
             int slen;
-            slen = UnsafeNativeMethods.RecviceMsg(this.Handle, buffer, buffer.Length);
+            slen = UnsafeNativeMethods.ReceiveMsg(this.Handle, buffer, buffer.Length);
             return slen;
         }
 
@@ -730,15 +792,12 @@ namespace udt.NetCore
         /// <exception cref="UDTException"/>
         /// <exception cref="ObjectDisposedException">UDT被释放时引发</exception>
         /// <remarks>接收数据长度0不代表客户端关闭，只说明接收的数据量为0</remarks>
-        public int Receive(byte[] buffer,  int len)
+        public int Receive(byte[] buffer)
         {
-   
-        
-            int reviceLen = UnsafeNativeMethods.Receive(this.Handle, buffer, len);
-           
+            int reviceLen = UnsafeNativeMethods.Receive(this.Handle, buffer, buffer.Length);
+
             if (reviceLen < 0) throw GetUDTException();
             return reviceLen;
-
         }
 
     

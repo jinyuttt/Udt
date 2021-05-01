@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IUdtSocket\IUdtSocket.csproj" />
+    <ProjectReference Include="..\udt.NetCore\udt.NetCore.csproj" />
   </ItemGroup>
 
 </Project>

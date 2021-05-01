@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "udt.NetCore/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/udt.NetCore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/udt.NetCore.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "udt.NetCore/1.0.0": {
-      "type": "project",
-      "path": "../udt.NetCore/udt.NetCore.csproj",
-      "msbuildProject": "../udt.NetCore/udt.NetCore.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "udt.NetCore >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\jinyu\\.nuget\\packages\\": {},
@@ -61,11 +42,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj": {
-              "projectPath": "E:\\study\\udt4\\udt.NetCore\\udt.NetCore.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

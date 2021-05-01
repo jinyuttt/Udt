@@ -4,6 +4,7 @@ using System.Runtime.InteropServices;
 using System.Security;
 using System.Text;
 using System.Net.Sockets;
+using IUdtSocket;
 
 namespace udt.NetCore
 {
@@ -70,7 +71,7 @@ namespace udt.NetCore
 
 
         [DllImport(UdtDll, CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int RecviceMsg(IntPtr udtSocket, byte[] buf, int len);
+        public static extern int ReceiveMsg(IntPtr udtSocket, byte[] buf, int len);
 
         [DllImport(UdtDll, CharSet = CharSet.Ansi, CallingConvention = CallingConvention.Cdecl)]
         public static extern Int64 SendFile(IntPtr u, string filePath, bool isbinary, Int64 offset, Int64 size, int block);

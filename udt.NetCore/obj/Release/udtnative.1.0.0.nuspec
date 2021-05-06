@@ -6,9 +6,7 @@
     <authors>udtnative</authors>
     <description>Package Description</description>
     <dependencies>
-      <group targetFramework="net5.0">
-        <dependency id="IUdtSocket" version="1.0.0" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework="net5.0" />
     </dependencies>
   </metadata>
   <files>

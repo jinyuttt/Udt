@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>udtnative</id>
+    <version>1.0.2</version>
+    <authors>udtnative</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\study\uz\Udt\udt.NetCore\bin\Release\net5.0\udtnative.dll" target="lib\net5.0\udtnative.dll" />
+    <file src="E:\study\uz\Udt\udt.NetCore\runtimes\linux-x64\native\libudt.so" target="runtimes\linux-x64\native\libudt.so" />
+    <file src="E:\study\uz\Udt\udt.NetCore\runtimes\win-x64\native\udt.dll" target="runtimes\win-x64\native\udt.dll" />
+    <file src="E:\study\uz\Udt\udt.NetCore\runtimes\win-x86\native\nng.dll" target="runtimes\win-x86\native\nng.dll" />
+    <file src="E:\study\uz\Udt\udt.NetCore\runtimes\win-x86\native\udt.dll" target="runtimes\win-x86\native\udt.dll" />
+  </files>
+</package>

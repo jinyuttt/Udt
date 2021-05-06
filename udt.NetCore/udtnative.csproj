@@ -1,11 +1,23 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\IUdtSocket\IUdtSocket.csproj" />
+	  <ProjectReference Include="..\IUdtSocket\IUdtSocket.csproj">
+	   <PrivateAssets>all</PrivateAssets>
+	  </ProjectReference>
+	  <BuildOutputInPackage Include="@(ReferenceCopyLocalPaths-&gt;WithMetadataValue('ReferenceSourceTarget', 'ProjectReference'))" />
   </ItemGroup>
-
+	
+	<ItemGroup>
+		<None Include="runtimes\**">
+			<Pack>true</Pack>
+			<PackageCopyToOutput>true</PackageCopyToOutput>
+			<PackagePath>runtimes</PackagePath>
+		</None>
+		
+	</ItemGroup>
 </Project>

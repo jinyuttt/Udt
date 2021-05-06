@@ -5,7 +5,7 @@
   },
   "projects": {
     "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
         "projectName": "IUdtSocket",
@@ -66,7 +66,7 @@
       }
     },
     "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.2",
       "restore": {
         "projectUniqueName": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
         "projectName": "udtnative",
@@ -97,7 +97,8 @@
             "targetAlias": "net5.0",
             "projectReferences": {
               "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj": {
-                "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj"
+                "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
+                "privateAssets": "all"
               }
             }
           }
@@ -131,7 +132,7 @@
       }
     },
     "E:\\study\\uz\\Udt\\UdtCSharp\\UdtCSharp.csproj": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "restore": {
         "projectUniqueName": "E:\\study\\uz\\Udt\\UdtCSharp\\UdtCSharp.csproj",
         "projectName": "UdtCSharp",
@@ -162,10 +163,12 @@
             "targetAlias": "net5.0",
             "projectReferences": {
               "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj": {
-                "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj"
+                "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
+                "privateAssets": "all"
               },
               "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj": {
-                "projectPath": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj"
+                "projectPath": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
+                "privateAssets": "all"
               }
             }
           }

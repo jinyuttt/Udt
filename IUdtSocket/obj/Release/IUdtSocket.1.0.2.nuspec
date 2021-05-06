@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>IUdtSocket</id>
+    <version>1.0.2</version>
+    <authors>IUdtSocket</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="E:\study\uz\Udt\IUdtSocket\bin\Release\net5.0\IUdtSocket.dll" target="lib\net5.0\IUdtSocket.dll" />
+  </files>
+</package>

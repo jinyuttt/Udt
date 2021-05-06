@@ -62,6 +62,26 @@ namespace IUdtSocket
         /// </summary>
         public UdtStatus State { get; }
 
+
+        /// <summary>
+        /// 获取UDT本地监听地址
+        /// </summary>
+        /// <exception cref="ObjectDisposedException">UDT被释放时引发</exception>
+        public IPEndPoint LocalEndPoint
+        {
+            get;
+        }
+
+        /// <summary>
+        /// 获取UDT远程地址
+        /// </summary>
+        /// <exception cref="ObjectDisposedException">UDT被释放时引发</exception>
+        public IPEndPoint RmoteEndPoint
+        {
+            get;
+        }
+
+
         /// <summary>
         /// 连接
         /// </summary>
@@ -107,5 +127,8 @@ namespace IUdtSocket
 
         public int SendMessage(byte[] buffer);
         public int RecviceMessage(byte[] buffer);
+
+
+        public void Close();
     }
 }

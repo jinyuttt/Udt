@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U1/DMC6KMhvLyMqGUTOGLOGaKWxmiMVRn55oh5o74t9Bwuylp003P0oWrXQE/OhhTVRPRQkRf1ADwniM01t5jA==",
+  "dgSpecHash": "tVVB7VIHcDeA+q9t2XvGBycjWhI5zqL0LdVRnpmZ/pqzMNJVQyVD4Yd4FGxAoGJ7dqKeJhstl37UIdmKMlXedQ==",
   "success": true,
   "projectFilePath": "E:\\study\\uz\\Udt\\Srv\\Srv.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jinyu\\.nuget\\packages\\udtcsharp\\1.0.1\\udtcsharp.1.0.1.nupkg.sha512",
     "C:\\Users\\jinyu\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.4\\microsoft.netcore.app.host.win-x64.5.0.4.nupkg.sha512"
   ],
   "logs": []

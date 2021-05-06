@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "IUdtSocket/1.0.0": {
+      "IUdtSocket/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
@@ -12,12 +12,9 @@
           "bin/placeholder/IUdtSocket.dll": {}
         }
       },
-      "udtnative/1.0.0": {
+      "udtnative/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "IUdtSocket": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/udtnative.dll": {}
         },
@@ -28,12 +25,12 @@
     }
   },
   "libraries": {
-    "IUdtSocket/1.0.0": {
+    "IUdtSocket/1.0.2": {
       "type": "project",
       "path": "../IUdtSocket/IUdtSocket.csproj",
       "msbuildProject": "../IUdtSocket/IUdtSocket.csproj"
     },
-    "udtnative/1.0.0": {
+    "udtnative/1.0.2": {
       "type": "project",
       "path": "../udt.NetCore/udtnative.csproj",
       "msbuildProject": "../udt.NetCore/udtnative.csproj"
@@ -41,8 +38,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "IUdtSocket >= 1.0.0",
-      "udtnative >= 1.0.0"
+      "IUdtSocket >= 1.0.2",
+      "udtnative >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -51,7 +48,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "E:\\study\\uz\\Udt\\UdtCSharp\\UdtCSharp.csproj",
       "projectName": "UdtCSharp",
@@ -82,10 +79,12 @@
           "targetAlias": "net5.0",
           "projectReferences": {
             "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj": {
-              "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj"
+              "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
+              "privateAssets": "all"
             },
             "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj": {
-              "projectPath": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj"
+              "projectPath": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
+              "privateAssets": "all"
             }
           }
         }

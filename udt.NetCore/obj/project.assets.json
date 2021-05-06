@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "IUdtSocket/1.0.0": {
+      "IUdtSocket/1.0.2": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "compile": {
@@ -15,7 +15,7 @@
     }
   },
   "libraries": {
-    "IUdtSocket/1.0.0": {
+    "IUdtSocket/1.0.2": {
       "type": "project",
       "path": "../IUdtSocket/IUdtSocket.csproj",
       "msbuildProject": "../IUdtSocket/IUdtSocket.csproj"
@@ -23,7 +23,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "IUdtSocket >= 1.0.0"
+      "IUdtSocket >= 1.0.2"
     ]
   },
   "packageFolders": {
@@ -32,7 +32,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.2",
     "restore": {
       "projectUniqueName": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
       "projectName": "udtnative",
@@ -63,7 +63,8 @@
           "targetAlias": "net5.0",
           "projectReferences": {
             "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj": {
-              "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj"
+              "projectPath": "E:\\study\\uz\\Udt\\IUdtSocket\\IUdtSocket.csproj",
+              "privateAssets": "all"
             }
           }
         }

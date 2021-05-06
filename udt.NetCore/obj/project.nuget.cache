@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5ZEeUaQtMQL4M0Ed2kOLpcou9lg1DYaGJq03ieCYpeCb15OT5XDLsi8yzAlYSu4WO4Gvn9sdUCKlq23jQmUw2w==",
+  "dgSpecHash": "o96XMn1R8NuktkeUDkOiymcEuk5umPVAPczVuJd15eIFeCHkt6nyKcpkQi4j1PsCnc/TSMu42sK1zbBE2pjbYQ==",
   "success": true,
   "projectFilePath": "E:\\study\\uz\\Udt\\udt.NetCore\\udtnative.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jinyu\\.nuget\\packages\\iudtsocket\\1.0.2\\iudtsocket.1.0.2.nupkg.sha512"
+  ],
   "logs": []
 }
